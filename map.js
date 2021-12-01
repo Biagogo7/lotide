@@ -27,6 +27,8 @@ for (let item of array) {
 return results;
 };
 
+module.exports = map;
+
 const words = ["ground", "control", "to", "major", "tom"];
 const words2 = ["going", "to", "higher", "places", "ade"];
 

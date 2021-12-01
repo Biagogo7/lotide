@@ -45,6 +45,7 @@ assertEqual(eqArrays(arrai1, arrai2), true);
 };
 
 
+module.exports = eqObjects;
 
 
 //TEST

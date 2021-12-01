@@ -44,6 +44,10 @@ const assertObjectsEqual = function(actual, expected) {
 
 };
 
+
+module.exports = assertObjectsEqual;
+
+
 //console.log(`Example label: ${inspect(actual)}`);
 
 const ca = { a: "1", b: "2" };

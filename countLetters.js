@@ -29,6 +29,10 @@ const countLetters = function (sntnc) {
 
 };
 
+module.exports = countLetters;
+
+
+
 
 
 

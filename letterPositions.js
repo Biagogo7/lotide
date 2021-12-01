@@ -30,40 +30,17 @@ const letterPositions = function(sentence) {
      }
      
   }
-  
-  // // logic to update results here
-  // let k = [];
-  // let char;
 
-  // char = sentence.split(" ");
-  // let newSentence = char.join("");
 
-  // unique = [...new Set(newSentence)];
-  // console.log(unique);
 
-  // for (let i = 0; i < newSentence.length; i++) {
-    
-  //   // for (let j = 0; j < newSentence.length; j++) {
-     
-
-  //     if (unique.includes(newSentence[i])) {
-
-  //       //if (newSentence[i] === newSentence[j]) {
-  //       if (results[newSentence[i]] !== []) {
-  //         //results[newSentence[i]] = k.push(i)
-  //       } 
-  //         results[newSentence[i]] = i;
-  //       //console.log(k)
-  //       //results[newSentence[j]] = k;
-
-  //     }  
-  
-        
-    
-  // } 
   console.log(results);
   return results;
 };
+
+
+
+module.exports = letterPositions;
+
 
 // let y;
 // y = letterPositions('hello');

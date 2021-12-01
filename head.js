@@ -2,6 +2,7 @@
 
 
 const head = function(arrai) {
+
   let x = arrai[0];
   return x;
 };

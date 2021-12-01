@@ -1,5 +1,8 @@
 const assertEqual = require('../assertEqual');
 
+const head = require('../head');
+//const head = require('/home/labber/w1/lotide/head.js');
+
 //TEST CODE - head
 
 assertEqual(head([5,6,7]), 5);

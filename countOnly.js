@@ -36,8 +36,10 @@ return results;
 }
 
 
+module.exports = countOnly;
 
 
+//TEST
 
 const firstNames = [
   "Karl",
